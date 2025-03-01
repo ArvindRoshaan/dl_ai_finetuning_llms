@@ -9,6 +9,8 @@ packages = [{include = "dl_ai_finetuning_llms"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 lamini = "^3.2.11"
+datasets = "^3.3.2"
+ipywidgets = "^8.1.5"
 
 
 [tool.poetry.group.dev.dependencies]
