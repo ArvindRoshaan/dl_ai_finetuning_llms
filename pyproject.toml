@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dl-ai-finetuning-llms"
+version = "0.1.0"
+description = "Deeplearning.ai short course"
+authors = ["ArvindRoshaan <arvindroshaan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dl_ai_finetuning_llms"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lamini = "^3.2.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
